@@ -1,0 +1,26 @@
+# This is the query for the organism Mycobacterium tuberculosis in NCBI databases
+organism_query: "Mycobacterium[Organism]"
+
+# Your email address for notifications
+email: "your@email.com"
+
+organism: "Mycobacterium tuberculosis" #goes into query to fetch assemblies
+
+# The location where the organism is found, in this case, India
+location: "India" 
+
+# URL to the reference genome file for Mycobacterium tuberculosis
+reference_genome_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2/GCF_000195955.2_ASM19595v2_genomic.fna.gz"
+
+# URL to the GFF file for Mycobacterium tuberculosis
+gff_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2/GCF_000195955.2_ASM19595v2_genomic.gff.gz"
+
+#NCBI genome download parameter
+#  The NCBI taxonomic groups to download (default: all). A comma-separated list of taxonomic groups is also possible. 
+#For example: "bacteria,viral"Choose from: ['all', 'archaea','bacteria', 'fungi', 'invertebrate', 'metagenomes', 'plant', 'protozoa', 'vertebrate_mammalian', 'vertebrate_other', 'viral'] 
+group: "bacteria" # deafult: all
+
+organism_type: "PK"  #PK for prokaryotes, EK for eukaryotes 
+
+#ouput folder name 
+output_folder: "Mycobacterium" 
