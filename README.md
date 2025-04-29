@@ -96,8 +96,8 @@ organism_query: "Mycobacterium[Organism]"
 email: "your@email.com"
 organism: "Mycobacterium tuberculosis"
 location: "India"
-reference_genome_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2/GCF_000195955.2_ASM19595v2_genomic.fna.gz"
-gff_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2/GCF_000195955.2_ASM19595v2_genomic.gff.gz"
+reference_genome_url: Url of the reference genome
+gff_url: Url of the gff file 
 group: "bacteria"
 organism_type: "PK" # PK for prokaryotes, EK for eukaryotes
 output_folder: "Mycobacterium"
